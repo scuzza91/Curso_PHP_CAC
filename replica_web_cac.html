@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>CAC-MOVIES</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navegacion">
+                <span>CAC-Movies</span>
+            <ul >
+                <li class="listaItem"><a class="linkNav">Tendencias</a></li>
+                <li class="listaItem"><a class="linkNav">Registrarse</a></li>
+                <li class="listaItem"><a class="linkNav iniciarSesion">Iniciar Sesión</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <main id="main" class="main">
+        <section class="noticias">
+            <div class="banner">
+                <img src="./images/group-young-people-cinema.jpg" alt="Imagen" class="image">
+                <div class="text-overlay">Películas y series ilimitadas <br> en un solo lugar</div>
+            </div>
+            <h2 class="subtituloPrincipal">Disfruta donde quieras. <br> Cancela en cualquier momento.</h2>
+        </section>
+        <section>
+            <h2 class="buscador-msj">¿Qué estas buscando para ver?</h2>
+            <form class="buscador">
+                    <div class="buscador-container">
+                        <input type="text" placeholder="Buscar...">
+                        <select>
+                            <option value="Accion">Acción</option>
+                            <option value="Aventura">Aventura</option>
+                            <option value="Drama">Drama</option>
+                            <option value="Ciencia Ficcion">Ciencia Ficción</option>
+                            <option value="Romance">Romance</option>
+                            <option value="Comedia">Comedia</option>
+                            <option value="Indi">Indi</option>
+                        </select>
+                        <br>
+                        <button class="buscar">Buscar</button>
+                    </div>
+            </form>      
+       </section>
+        <hr>
+
+            <h3 class="tituloSection">Las tendencias de hoy</h3>
+                    <div class="pelicula"> 
+                        <ul class="pelicula-lista">
+                            <li class="pelicula-item"><img src="./images/Avatar.jpg" alt="Película 1"></li>
+                            <li class="pelicula-item"><img src="./images/doctor-sueno.jpg" alt="Película 2"></li>
+                            <li class="pelicula-item"><img src="./images/jojo_rabit.jpeg" alt="Película 3"></li>
+                            <li class="pelicula-item"><img src="./images/JW3.jpg" alt="Película 3"></li>
+                            <li class="pelicula-item"><img src="./images/Thor.jpg" alt="Película 3"></li>
+                            <li class="pelicula-item"><img src="./images/Blade_tunner.jpeg" alt="Película 3"></li>
+                        </ul>
+                    </div>
+            <button class="boton anterior">Anterior</button>  
+            <button class="boton siguiente">Siguiente</button>
+        </section>
+        <hr>
+        <section>
+            <h3 class="tituloSection">Las más aclamadas</h3>
+             <div class="+aclamadas">          
+            </div>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <ul class="footer">
+                <li class="listaItem"><a class="linkNav" href="">Términos y condiciones</a></li>
+                <li class="listaItem"><a class="linkNav" href="">Preguntas frecuentes</a></li>
+                <li class="listaItem"><a class="linkNav" href="">Ayuda</a></li>
+                <li class="listaItem"><a class="linkNav administradorPeliculas" href="">Administrador Peliculas</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+

@@ -1,0 +1,115 @@
+*{
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.navegacion li:hover{
+color:brown
+}
+
+ul{
+    display: inline;
+}
+
+li{
+    display: inline;
+}
+.navegacion{
+    background-color: yellowgreen;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navegacion li { 
+    align-items: center;
+}
+
+.buscador{
+    background-color: yellow;
+    align-items: center;
+}
+.buscador-msj{
+    background-color: red;
+    text-align: center;
+}
+.banner{
+    width: 100%; 
+    height: 10%
+}
+.buscador-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 35%;
+}
+input[type="text"], select {
+    padding: 8px;
+    width: 200px;
+    margin-right: 10px;
+}
+button {
+    padding: 8px 15px;
+    background-color:rgba(0, 0, 0, 0.281);
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+
+.results {
+    margin-top: 20px;
+}
+
+.result-item {
+    margin-bottom: 10px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+.text-overlay {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 82px;
+    background-color: rgba(0, 0, 0, 0.281);
+    padding: 20px 20px;
+    border-radius: 70px;
+}
+.image {
+    width: 100%;
+    height: auto;
+}
+.footer li{
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+    margin-right: 10px;
+}
+.buscar{
+    margin-left: 23%;
+    background-color: rgb(59, 57, 57);
+    margin-top: 3%;
+    border-radius: 70px;
+    font-size: 20px;
+}
+.pelicula-lista {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.pelicula-item {
+    margin-right: 10px;
+}
+
+.pelicula-item img {
+    width: 300px;
+    height: 450px;
+}
