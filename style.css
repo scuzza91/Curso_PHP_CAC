@@ -40,14 +40,23 @@ li{
     font-weight: 700;
     font-size: 1.1rem;
     padding: 1.5rem;
-}
+    text-align: left;
 
+}
+.contenedor_menu{
+    background-color: rgb(159, 54, 71);
+    color: #ffffff;
+    font-weight: 700;
+    text-align: right;
+}
 .iniciarSesion{
+    display: inline-block;
     align-content: center;
     background-color: #181419;
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 5px;
+    text-align: right;
 }
 .buscador-msj{
     text-align: center;
@@ -133,35 +142,35 @@ button:hover {
     margin-bottom: 40px;
     text-align: center;
 }
+.pelicula {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 300px;
+    margin: 0 auto;
+}
+.imagen_tendencia {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    gap: 10px
+}
+.imagen_tendencia img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
 .footer li{
     list-style-type: none;
     padding: 0;
     display: inline-block;
     margin-right: 10px;
 }
-.peliculas{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 60px;
-}
-.pelicula {
-    display: flex;
-    list-style-type: none;
-    padding: 0;
-}
 
-.pelicula-item {
-    margin-right: 10px;
-}
-
-.pelicula-item img {
-    width: 300px;
-    height: 450px;
-}
-.paginacion{
-    align-items: center;
-}
 .boton-anterior{
     border: 1px solid white;
     box-sizing: content-box;
@@ -201,12 +210,6 @@ button:hover {
     padding: 0.5rem 1rem;
     border-radius: 5px;
     display: block;
-}
-.pelicula .pelicula-lista ul li .imagen_tendencia{
-    width: 10%;
-    height: 10%;
-    object-fit: cover;
-    border-radius: 10px;
 }
 .pelicula_aclamadas{
     overflow-x: scroll;
