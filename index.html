@@ -7,18 +7,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 </head>
 <body>
     <header>
         <nav class="navegacion">
             <a class="logo">
-                <i class="fa-solid fa-film"></i>
-                <span>CAC-Movies</span>
+                <iconify-icon class="logo" icon="maki:cinema"></iconify-icon>
+                <span >CAC-Movies</span>
             </a>
             <div class="contenedor_menu">
-                <li class="listaItem"><a class="nav_botones">Tendencias</a></li>
+                <li ><a class="nav_botones">Tendencias</a></li>
                 <li class="listaItem"><a class="nav_botones">Registrarse</a></li>
                 <li class="listaItem"><a class="linkNav iniciarSesion">Iniciar Sesión</a></li>
             </ul>
@@ -53,91 +54,187 @@
             </form>      
        </section>
         <hr>
+        
+        <h3 class="titulo_tendencia">Las tendencias de hoy</h3>
 
-            <h3 class="titulo_tendencia">Las tendencias de hoy</h3>
-                    <div class="seccion_pelicula">
-                        <div class="pelicula">
-                            <a class="imagen_tendencia"><img src="./images/godzilla x kong (2).jpg" alt="Película 1"></a>
-                        </div>
-
-                        <div class="pelicula">
-                            <a class="imagen_tendencia"><img src="./images/Kung Fu Panda 4.jpg" alt="Película 2"></a>
-                        </div>
-
-                        <div class="pelicula">
-                            <a class="imagen_tendencia"><img src="./images/El Duro.jpg" alt="Película 3"></s>
-                        </div>
-
-                        <div class="pelicula">
-                            <a class="imagen_tendencia"><img src="./images/pandemic.jpg" alt="Película 3"></a>
-                        </div>
-
-                        <div class="pelicula">
-                            <a class="imagen_tendencia"><img src="./images/madame web.jpg" alt="Película 3"></a>
-                        </div>
-
-                        <div class="pelicula">
-                            <a class="imagen_tendencia"><img src="./images/patos.jpg" alt="Película 3"></a>
-                        </div>
-
-                        <div class="pelicula">
-                            <a class="imagen_tendencia"><img src="./images/creation.jpg" alt="Película 3"></a>
-                        </div>
-
-                        <div class="pelicula">
-                            <a class="imagen_tendencia"><img src="./images/damsel.jpg" alt="Película 1"></a>
-                        </div>
-
-                        <div class="pelicula">
-                            <a class="imagen_tendencia"><img src="./images/hunters.jpg" alt="Película 2"></a>
-                        </div>
-                        
-                        <div class="pelicula">
-                            <a class="imagen_tendencia"><img src="./images/heart.jpg" alt="Película 3"></a>
-                        </div>
-
-                        <div class="pelicula">
-                            <a class="imagen_tendencia"><img src="./images/alienoid.jpg" alt="Película 3"></a>
-                        </div>
-                           
-                        <div class="pelicula">
-                            <a class="imagen_tendencia"><img src="./images/alienoid.jpg" alt="Película 3"></a> 
-                        </div>
-
-                        <div class="pelicula">
-                            <a class="imagen_tendencia"><img src="./images/wages.jpg" alt="Película 3"></a>
-                        </div class="pelicula">
-
-                        <div class="pelicula">
-                            <a class="imagen_tendencia"><img src="./images/no way up.jpg" alt="Película 3"></a>
-                        </div>
-                         
-                        <div class="pelicula">
-                            <a class="imagen_tendencia"><img src="./images/omen.jpg" alt="Película 1"></a>
-                        </div>
-                            
-                        <div class="pelicula">
-                            <a class="imagen_tendencia"><img src="./images/imaginary.jpg" alt="Película 2"></a>
-                        </div>
-                            
-                        <div class="pelicula">
-                            <a class="imagen_tendencia"><img src="./images/Godzilla x Kong.jpg" alt="Película 3"></a>
-                        </div> 
-                            
-                        <div class="pelicula">
-                            <a class="imagen_tendencia"><img src="./images/sri asih.jpg" alt="Película 3"></a>
-                        </div> 
-
-                        <div class="pelicula">
-                            <a class="imagen_tendencia"><img src="./images/godzilla.jpg" alt="Película 3"></a>
-                        </div>
-                            
-                        <div class="pelicula">
-                            <a class="imagen_tendencia"><img src="./images/land of bad.jpg" alt="Película 3"></a>
-                        </div>    
-                            
+        <div class="child-page-listing">
+                <div class="grid-container">
+              
+                <article id="" class="pelicula-listing">
+              
+                    <a class="pelicula-title" href="#">Gozdilla VS Kong</a>
+                    
+                    <div class="pelicula-image">
+                      <a href="#"><img src="./images/godzilla x kong (2).jpg" alt="godzilla vs kong"></a>
                     </div>
-        <div class="paginacion">
+              
+                </article>
+            
+                <article id="" class="pelicula-listing">
+              
+                    <a class="pelicula-title" href="#">Kung fu Panda 4</a>
+                    
+                    <div class="pelicula-image">
+                      <a href="#"><img src="./images/Kung Fu Panda 4.jpg" alt="Kung fu panda 4"></a>
+                    </div>
+              
+                </article>
+
+                <article id="" class="pelicula-listing">
+              
+                    <a class="pelicula-title" href="#">Pandemic</a>
+                    
+                    <div class="pelicula-image">
+                      <a href="#"><img src="./images/pandemic.jpg" alt="Pandemic"></a>
+                    </div>
+              
+                </article>
+
+                <article id="" class="pelicula-listing">
+              
+                    <a class="pelicula-title" href="#">Patos</a>
+                    
+                    <div class="pelicula-image">
+                      <a href="#"><img  src="./images/patos.jpg" alt="Patos"></a>
+                    </div>
+              
+                </article>
+
+                <article id="" class="pelicula-listing">
+              
+                    <a class="pelicula-title" href="#">Creations of the Gods</a>
+                    
+                    <div class="pelicula-image">
+                      <a href="#"><img src="./images/creation.jpg" alt="Creations of the Gods"></a>
+                    </div>
+              
+                </article>
+
+                <article id="" class="pelicula-listing">
+              
+                    <a class="pelicula-title" href="#">Damsel</a>
+                    
+                    <div class="pelicula-image">
+                      <a href="#"><img src="./images/damsel.jpg" alt="Damsel"></a>
+                    </div>
+              
+                </article>
+
+                <article id="" class="pelicula-listing">
+              
+                    <a class="pelicula-title" href="#">Hunters</a>
+                    
+                    <div class="pelicula-image">
+                      <a href="#"><img src="./images/hunters.jpg"alt="Hunters"></a>
+                    </div>
+              
+                </article>
+
+                <article id="" class="pelicula-listing">
+              
+                    <a class="pelicula-title" href="#">"Creations of the Gods"</a>
+                    
+                    <div class="pelicula-image">
+                      <a href="#"><img src="./images/heart.jpg" alt="Creations of the Gods"></a>
+                    </div>
+              
+                </article>
+
+                <article id="" class="pelicula-listing">
+              
+                    <a class="pelicula-title" href="#">Alienoid</a>
+                    
+                    <div class="pelicula-image">
+                      <a href="#"><img src="./images/alienoid.jpg" alt="Alienoid"></a>
+                    </div>
+              
+                </article>
+
+                <article id="" class="pelicula-listing">
+              
+                    <a class="pelicula-title" href="#">The wages of fear</a>
+                    
+                    <div class="pelicula-image">
+                      <a href="#"><img src="./images/wages.jpg" alt="The wages of fear"></a>
+                    </div>
+              
+                </article>
+
+                <article id="" class="pelicula-listing">
+              
+                    <a class="pelicula-title" href="#">No way up</a>
+                    
+                    <div class="pelicula-image">
+                      <a href="#"><img src="./images/no way up.jpg" alt="No way up"></a>
+                    </div>
+              
+                </article>
+
+                <article id="" class="pelicula-listing">
+              
+                    <a class="pelicula-title" href="#">The first Omen</a>
+                    
+                    <div class="pelicula-image">
+                      <a href="#"><img src="./images/omen.jpg" alt="The First Omen"></a>
+                    </div>
+              
+                </article>
+
+                <article id="" class="pelicula-listing">
+              
+                    <a class="pelicula-title" href="#">Imaginary</a>
+                    
+                    <div class="pelicula-image">
+                      <a href="#"><img src="./images/imaginary.jpg" alt="Imaginary"></a>
+                    </div>
+              
+                </article>
+               
+                <article id="" class="pelicula-listing">
+              
+                    <a class="pelicula-title" href="#">Godzilla X Kong</a>
+                    
+                    <div class="pelicula-image">
+                      <a href="#"><img src="./images/Godzilla x Kong.jpg" alt="Godzilla X Kong"></a>
+                    </div>
+              
+                </article>
+
+                <article id="" class="pelicula-listing">
+              
+                    <a class="pelicula-title" href="#">Sri Asih</a>
+                    
+                    <div class="pelicula-image">
+                      <a href="#"><img src="./images/sri asih.jpg" alt="Sri Asih"></a>
+                    </div>
+              
+                </article>
+
+              
+                </div>
+                <!-- end grid container -->
+              
+              </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            <div class="paginacion">
             <button class="boton-anterior">Anterior</button>  
             <button class="boton-siguiente">Siguiente</button>
         </div>
