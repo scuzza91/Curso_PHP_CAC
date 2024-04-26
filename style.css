@@ -4,20 +4,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-.navegacion li:hover{
-color:brown
-}
-ul{
-    display: inline;
-}
-
-li{
-    display: inline;
-}
-.logo{
-    transition:all .5s ease-in-out;
-
-}
 .section_principal {
     background-image: linear-gradient(to right top, #0000008a, #0000008a), url(/images/banner.JPG);
     background-size: cover;
@@ -71,7 +57,7 @@ li{
     color: white;
 }
 .buscar{
-    background-color: #9f3647;
+    background-color: #181419;
     display: inline-block;
     color: #ffffff;
     height: 50px;
@@ -152,39 +138,6 @@ button:hover {
     margin-bottom: 40px;
     text-align: center;
 }
-.footer li{
-    list-style-type: none;
-    padding: 0;
-    display: inline-block;
-    margin-right: 10px;
-}
-
-.boton-anterior{
-    border: 1px solid white;
-    box-sizing: content-box;
-    margin-top: 50px;
-    margin-left: 20px;
-    background-color: #9f3647;
-    color: white;
-    padding: 1rem 1rem;
-    border-radius: 5px;
-    font-size: 1rem;
-    font-weight: 500;
-    margin-bottom: 60px;
-}
-.boton-siguiente{
-    border: 1px solid white;
-    box-sizing: content-box;
-    margin-top: 50px;
-    margin-left: 20px;
-    background-color: #9f3647;
-    color:white;
-    padding: 1rem 1rem;
-    border-radius: 5px;
-    font-size: 1rem;
-    font-weight: 500;
-    margin-bottom: 60px;
-}
 .titulosection{
     font-size: 2.5rem;
     font-weight: 700;
@@ -192,23 +145,22 @@ button:hover {
     color: #ffffff;
     text-align: center;
 }
-.administradorPeliculas{
-    background-color: #181419;
-    color: white;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
-    display: block;
-}
-.pelicula_aclamadas{
-    overflow-x: scroll;
-    overflow-y: hidden;
-    width: 100%;
+.pelicula_aclamadas {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 0px 0px 40px 0px;
-
+    flex-wrap: nowrap;
+    overflow-x: auto;
 }
+
+.pelicula-item {
+    flex: 0 0 30%; /* Establece el ancho de cada elemento */
+    margin-right: 10px; /* Espacio entre cada elemento */
+    background-color: #9f3647;
+}
+.pelicula-item img {
+    width: 30%; /* Establece el ancho de la imagen al 100% del contenedor */
+    height: 30%; /* La altura se ajustará automáticamente para mantener la proporción */
+}
+
 .footer {
     background-color: #9f3647;
     color: #ffffff;
@@ -217,22 +169,15 @@ button:hover {
     justify-content: center;
     align-items: center;
 }
-.seccion_botones{
-    //-webkit-transform: none;
-    //transform: none;
-    //transition-delay: 50ms;
-    //opacity: 0;
-    //transition-property: opacity, -webkit-transform;
-    //transition-property: opacity, transform;
-    //transition-duration: 1s;
-    //transition-delay: 0s;
-    //-webkit-transform: translate3d(0, 100px, 0);
-    //transform: translate3d(0, 100px, 0);
-    //transition-timing-function: ease;
-    //transition-duration: .4s;
-}
 
-  img {
+.paginacion{
+display: flex;
+align-items: center;
+align-content: center;
+text-align: center;
+    
+}
+img {
     width: 100%;
     height: auto;
   }
@@ -251,15 +196,8 @@ button:hover {
   .pelicula-image {
     line-height: 0;
     overflow: hidden;
-  }
-  
-  .pelicula-image img {
-    filter: blur(0px);
-    transition: filter 0.3s ease-in;
-    transform: scale(1.1);
-  }
-  
-  .pelicula-title {
+  } 
+.pelicula-title {
     font-size: 1.5em;
     font-weight: bold;
     text-decoration: none;
